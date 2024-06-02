@@ -12,7 +12,7 @@ const displayphone = (phones) => {
 
   phones.forEach((phone) => {
     const creatdiv = document.createElement("div");
-    creatdiv.classList = "card w-96 bg-base-100 shadow-xl m-2 ";
+    creatdiv.classList = "card bg-base-100 shadow-xl m-2 ";
     creatdiv.innerHTML = `
     <figure><img src="${phone.image}"
     alt="Shoes" /> </figure>
