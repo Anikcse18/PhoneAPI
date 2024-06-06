@@ -1,3 +1,9 @@
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-const test = fruits.slice(2, 5);
-console.log(test);
+// Phone Search
+// URL Format: https://openapi.programming-hero.com/api/phones?search=${searchText}
+
+// Example: https://openapi.programming-hero.com/api/phones?search=iphone
+
+// Phone detail url:
+// URL Format: https://openapi.programming-hero.com/api/phone/${id}
+
+// Example: https://openapi.programming-hero.com/api/phone/apple_iphone_13_pro_max-11089
